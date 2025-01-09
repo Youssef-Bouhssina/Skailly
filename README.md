@@ -57,7 +57,7 @@ Skailly is a user-friendly web application that provides real-time weather infor
 
 ## Deployment
 
-[Placeholder for deployment link - e.g., https://your-deployed-app.com]
+The app is deployed on Vercel and is accessible at: [https://skailly.vercel.app/](https://skailly.vercel.app/)
 
 ## Contributing
 
