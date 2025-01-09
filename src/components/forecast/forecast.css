@@ -14,27 +14,30 @@
 
 /* Style for the small weather icon displayed in the forecast list */
 .icon-small {
-  width: 40px; /* Icon size */
+  width: 30px; /* Icon size */
 }
 
 /* Styles for the day label in the forecast */
 .daily-item .day {
   color: #ffffff;
   flex: 1 1;
-  font-weight: 600;
-  margin-left: 15px;
+  font-weight: 500;
+  margin-left: 8px;
+  font-size: 12px;
 }
 
 /* Styles for the weather description row */
 .description {
   flex: 1 1;
-  margin-right: 15px;
+  margin-right: 8px;
   text-align: right;
+  font-size: 12px;
 }
 
 /* Styles for max and min temperature labels */
 .min-max {
   color: #ffffff;
+  font-size: 12px;
 }
 
 /* Grid layout for detailed weather data inside the accordion */
