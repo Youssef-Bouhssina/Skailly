@@ -1,0 +1,65 @@
+/* Styles for each weather forecast item */
+.daily-item {
+  background-color: rgba(255, 255, 255, 0.15); /* Semi-transparent background */
+  border-radius: 16px;
+  height: 40px;
+  margin: 5px;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  padding: 5px 20px;
+  color: #ffffff; /* White text color */
+}
+
+/* Style for the small weather icon displayed in the forecast list */
+.icon-small {
+  width: 40px; /* Icon size */
+}
+
+/* Styles for the day label in the forecast */
+.daily-item .day {
+  color: #ffffff;
+  flex: 1 1;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+/* Styles for the weather description row */
+.description {
+  flex: 1 1;
+  margin-right: 15px;
+  text-align: right;
+}
+
+/* Styles for max and min temperature labels */
+.min-max {
+  color: #ffffff;
+}
+
+/* Grid layout for detailed weather data inside the accordion */
+.daily-details-grid {
+  display: grid;
+  grid-template-columns: auto auto; /* Two-column layout */
+  gap: 15px; /* Add spacing between rows and columns */
+  padding: 5px 15px;
+}
+
+/* Styles for individual grid items showing detailed weather data */
+.daily-details-grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 30px;
+}
+
+/* First label (e.g., "Pressure") in grid data */
+.daily-details-grid-item label:first-child {
+  color: #ffffff; /* Label text color */
+}
+
+/* Second label (e.g., value for Pressure) in grid data */
+.daily-details-grid-item label:last-child {
+  color: #ffffff; /* Value text color */
+}

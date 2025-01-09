@@ -1,0 +1,6 @@
+/* Container for the app's main content, centered on the page */
+.container {
+  max-width: 500px; /* Limit the content width */
+  margin: 20px auto; /* Center the container */
+  padding: 0 20px; /* Add horizontal padding */
+}

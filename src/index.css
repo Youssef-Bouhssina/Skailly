@@ -1,0 +1,13 @@
+/* Reset and style the body of the document */
+body {
+  margin: 0; /* Remove default browser margin */
+  font-family: "Roboto", Arial, sans-serif !important; /* Default font */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #3e5c80; /* Set background color */
+}
+
+/* Style for inline code elements */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
