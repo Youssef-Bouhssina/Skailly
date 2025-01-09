@@ -1,0 +1,73 @@
+/* Styles for the current weather container */
+.weather {
+  border-radius: 16px;
+  color: #fff; /* White text color */
+  background-color: rgba(255, 255, 255, 0.15); /* Semi-transparent white background */
+  margin: 20px auto; /* Center horizontally with top/bottom margin */
+  padding: 0 20px 20px 20px; /* Padding around content */
+}
+
+/* Styles shared by top and bottom sections */
+.top,
+.bottom {
+  display: flex;
+  justify-content: space-between; /* Distribute space between items */
+  align-items: center; /* Vertically center items */
+}
+
+/* City name styles */
+.city {
+  font-weight: 600; /* Bold text */
+  font-size: 18px;
+  line-height: 2;
+  margin: 0;
+  letter-spacing: 1px; /* Add letter spacing */
+}
+
+/* Weather description styles */
+.weather-description {
+  font-weight: 400; /* Normal text weight */
+  font-size: 14px;
+  line-height: 1;
+  margin: 0;
+}
+
+/* Weather icon styles */
+.weather-icon {
+  width: 100px;
+}
+
+/* Temperature display styles */
+.temperature {
+  font-weight: 600; /* Bold text */
+  font-size: 70px;
+  width: auto; /* Width based on content */
+  letter-spacing: 3px; /* Add letter spacing */
+  margin: 10px 0; /* Top/bottom margin */
+}
+
+/* Details section styles */
+.details {
+  width: 100%;
+  padding-left: 50px;
+}
+
+/* Parameter row styles (flex container) */
+.parameter-row {
+  display: flex;
+  justify-content: space-between; /* Distribute space between label and value */
+}
+
+/* Parameter label styles */
+.parameter-label {
+  text-align: left;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+/* Parameter value styles */
+.parameter-value {
+  text-align: right;
+  font-weight: 600; /* Bold text */
+  font-size: 12px;
+}
